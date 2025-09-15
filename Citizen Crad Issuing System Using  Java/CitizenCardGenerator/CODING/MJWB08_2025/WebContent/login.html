@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>login</title>
+<link rel="stylesheet" href="w3.css">
+
+<style>
+a{
+padding:10px 20px;
+background-color: green;
+text-decoration:none;
+color: white;
+}
+a:hover{
+background-color: blue;
+}
+</style>
+</head>
+<body>
+<h1 STYLE="font-size: 100px" class="w3-center w3-teal">CITIZEN CARDS</h1>
+<center>
+<div>
+<a href="Home.html" >Home</a>
+<a href="reg.jsp" >Register</a>
+
+</div></center>
+<div class="w3-card w3-display-middle" style="width:500px;">
+<form action="Login">
+<h2 style="width: 500px;" class="w3-center w3-teal">----LOGIN HERE----</h2>
+<table class="" style="width:500px;">
+<tr><td><input type="radio" name=logtype value=citizen style="float: right;"></td><td>I Am Citizen</td></tr>
+<tr><td><input type="radio" name=logtype value=admin style="float: right;"></td><td>I Am Admin</td></tr>
+<tr><td><input type="radio" name=logtype value=manager style="float: right;"></td><td>I Am Manager</td></tr>
+<tr><td>Enter UserId</td><td><input type="text" name=uid ></td></tr>
+<tr><td>Enter Password</td><td><input type="password" name=pass></td></tr>
+<tr><td><input type="submit" class="w3-button w3-teal"></td><td><input type="reset" class="w3-teal w3-button"></td></tr>
+</table>
+</form>
+</div>
+</body>
+</html>
